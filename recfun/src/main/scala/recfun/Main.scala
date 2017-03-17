@@ -24,6 +24,7 @@ object Main {
       def balanced(chars: List[Char], currentBalance: Int) : Boolean = {
         if(chars.isEmpty) currentBalance == 0
         else if(chars.head == ')' && currentBalance == 0) false
+        else if(chars.head == ')') balanced(chars.tail, currentBalance - 1)
         else if(chars.head == '(') balanced(chars.tail, currentBalance + 1)
         else balanced(chars.tail, currentBalance)
       }
