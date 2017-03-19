@@ -11,30 +11,35 @@ object Main {
   }
 
   /**
-   * Exercise 1
-   */
-    def pascal(c: Int, r: Int): Int =
-      if (r == c || c == 0) 1
-      else pascal(c, r - 1) + pascal(c - 1, r - 1)
-  
-  /**
-   * Exercise 2
-   */
-    def balance(chars: List[Char]): Boolean = {
-      def balanced(chars: List[Char], currentBalance: Int) : Boolean = {
-        if(chars.isEmpty) currentBalance == 0
-        else if(chars.head == ')' && currentBalance == 0) false
-        else if(chars.head == ')') balanced(chars.tail, currentBalance - 1)
-        else if(chars.head == '(') balanced(chars.tail, currentBalance + 1)
-        else balanced(chars.tail, currentBalance)
-      }
+    * Exercise 1
+    */
+  def pascal(c: Int, r: Int): Int =
+    if (r == c || c == 0) 1
+    else pascal(c, r - 1) + pascal(c - 1, r - 1)
 
-      balanced(chars, 0)
+  /**
+    * Exercise 2
+    */
+  def balance(chars: List[Char]): Boolean = {
+    def balanced(chars: List[Char], currentBalance: Int) : Boolean = {
+      if(chars.isEmpty) currentBalance == 0
+      else if(chars.head == ')' && currentBalance == 0) false
+      else if(chars.head == ')') balanced(chars.tail, currentBalance - 1)
+      else if(chars.head == '(') balanced(chars.tail, currentBalance + 1)
+      else balanced(chars.tail, currentBalance)
     }
 
-  
+    balanced(chars, 0)
+  }
+
   /**
-   * Exercise 3
-   */
-    def countChange(money: Int, coins: List[Int]): Int = ???
+    * Exercise 3
+    */
+  def countChange(money: Int, coins: List[Int]): Int = {
+    if (money < 0) 0
+    else if(coins.isEmpty) 0
+    else if(money == 0) 1
+    else countChange(money , coins.tail) + countChange(money - coins.head, coins)
+  }
+
 }
