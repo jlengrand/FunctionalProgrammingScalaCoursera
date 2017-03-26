@@ -2,142 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2ffb35f-4042-44cc-9d68-a7bcd66cebc4" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__junit_junit_4_10_jar.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_hamcrest_hamcrest_core_1_1_jar.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_modules_scala_parser_combinators_2_11_1_0_4_jar.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_modules_scala_xml_2_11_1_0_2_jar.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_scala_library_2_11_7_jar.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_scala_reflect_2_11_2_jar.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_scalatest_scalatest_2_11_2_2_4_jar.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/funsets-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/funsets-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-funsets-build-compile-internal.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-funsets-build-compile.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-funsets-build-docs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-funsets-build-optional.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-funsets-build-plugin.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-funsets-build-pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-funsets-build-provided.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-funsets-build-runtime-internal.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-funsets-build-runtime.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-funsets-build-scala-tool.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-funsets-build-sources.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-funsets-build-test-internal.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-funsets-build-test.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/ivy-report.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/ivy-report.xsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/Assignment$$anonfun$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/Assignment$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/Assignment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/CommonBuild$class.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/CommonBuild.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/GradingFeedback.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/GradingSummary$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/GradingSummary.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/MapMapString$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/MapMapString.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/RecordingLogger$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/RecordingLogger.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/ScalaTestRunner$$anon$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/ScalaTestRunner$$anonfun$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/ScalaTestRunner$$anonfun$10.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/ScalaTestRunner$$anonfun$11.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/ScalaTestRunner$$anonfun$12.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/ScalaTestRunner$$anonfun$13.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/ScalaTestRunner$$anonfun$14.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/ScalaTestRunner$$anonfun$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/ScalaTestRunner$$anonfun$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/ScalaTestRunner$$anonfun$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/ScalaTestRunner$$anonfun$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/ScalaTestRunner$$anonfun$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/ScalaTestRunner$$anonfun$7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/ScalaTestRunner$$anonfun$8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/ScalaTestRunner$$anonfun$9.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/ScalaTestRunner$$anonfun$invokeScalaTestInSeparateProcess$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/ScalaTestRunner$$anonfun$invokeScalaTestInSeparateProcess$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/ScalaTestRunner$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/ScalaTestRunner$GradingSummaryUnpickler1$2$$anon$1$$typecreator1$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/ScalaTestRunner$GradingSummaryUnpickler1$2$$anon$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/ScalaTestRunner$GradingSummaryUnpickler1$2$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/ScalaTestRunner$LimitedStringBuffer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/ScalaTestRunner.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/Settings$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/Settings.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/StudentBuild$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/StudentBuild.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/StudentBuildLike$$anonfun$1$$anonfun$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/StudentBuildLike$$anonfun$1$$anonfun$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/StudentBuildLike$$anonfun$1$$anonfun$4$$anonfun$apply$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/StudentBuildLike$$anonfun$1$$anonfun$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/StudentBuildLike$$anonfun$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/StudentBuildLike$$anonfun$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/StudentBuildLike$$anonfun$8$$anonfun$apply$10.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/StudentBuildLike$$anonfun$8$$anonfun$apply$9.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/StudentBuildLike$$anonfun$8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/StudentBuildLike$$anonfun$prepareJar$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/StudentBuildLike$$anonfun$prepareJar$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/StudentBuildLike$$anonfun$prepareJar$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/StudentBuildLike$$anonfun$prepareJar$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/StudentBuildLike$$anonfun$root$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/StudentBuildLike$$anonfun$root$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/StudentBuildLike$$anonfun$root$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/StudentBuildLike$$anonfun$root$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/StudentBuildLike$$anonfun$root$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/StudentBuildLike$$anonfun$root$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/StudentBuildLike$$anonfun$root$7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/StudentBuildLike$$anonfun$root$9.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/StudentBuildLike$$anonfun$submitLocalSetting$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$apply$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/StudentBuildLike$$anonfun$submitLocalSetting$1$$anonfun$apply$2$$anonfun$apply$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/StudentBuildLike$$anonfun$submitLocalSetting$1$$anonfun$apply$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/StudentBuildLike$$anonfun$submitLocalSetting$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/StudentBuildLike$$anonfun$submitSetting$1$$anonfun$apply$5$$anonfun$apply$6$$anonfun$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/StudentBuildLike$$anonfun$submitSetting$1$$anonfun$apply$5$$anonfun$apply$6$$anonfun$7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/StudentBuildLike$$anonfun$submitSetting$1$$anonfun$apply$5$$anonfun$apply$6$$anonfun$apply$7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/StudentBuildLike$$anonfun$submitSetting$1$$anonfun$apply$5$$anonfun$apply$6$$anonfun$apply$8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/StudentBuildLike$$anonfun$submitSetting$1$$anonfun$apply$5$$anonfun$apply$6$$anonfun$postSubmission$1$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/StudentBuildLike$$anonfun$submitSetting$1$$anonfun$apply$5$$anonfun$apply$6$$anonfun$reportCourseraResponse$1$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/StudentBuildLike$$anonfun$submitSetting$1$$anonfun$apply$5$$anonfun$apply$6$$anonfun$reportCourseraResponse$1$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/StudentBuildLike$$anonfun$submitSetting$1$$anonfun$apply$5$$anonfun$apply$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/StudentBuildLike$$anonfun$submitSetting$1$$anonfun$apply$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/StudentBuildLike$$anonfun$submitSetting$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/StudentBuildLike.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/StyleChecker$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/StyleChecker$CustomTextOutput.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/StyleChecker.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/sbt/sbt.builds" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resource_managed/main/sbt/sbt.builds" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/streams/$global/$global/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/input_dsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/streams/$global/ivySbt/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/streams/$global/projectDescriptors/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/streams/compile/$global/$global/discoveredMainClasses/data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/streams/compile/compile/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/copy-resources" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.10" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/streams/compile/internalDependencyClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/streams/compile/unmanagedClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/streams/compile/unmanagedJars/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/streams/runtime/unmanagedClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/streams/runtime/unmanagedJars/$global/streams/export" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/.history" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/progfun1-funsets/progfun1-funsets$sbt_2.11/0.1-SNAPSHOT/resolved.xml.properties" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/progfun1-funsets/progfun1-funsets$sbt_2.11/0.1-SNAPSHOT/resolved.xml.xml" afterPath="" />
@@ -214,7 +78,7 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/test/unmanagedClasspath/$global/streams/export" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/test/unmanagedJars/$global/streams/export" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/funsets/FunSets.scala" afterPath="$PROJECT_DIR$/src/main/scala/funsets/FunSets.scala" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -238,8 +102,8 @@
       <file leaf-file-name="FunSets.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/funsets/FunSets.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="65" column="47" lean-forward="false" selection-start-line="65" selection-start-column="47" selection-end-line="65" selection-end-column="47" />
+            <state relative-caret-position="398">
+              <caret line="81" column="36" lean-forward="true" selection-start-line="81" selection-start-column="36" selection-end-line="81" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -955,7 +819,14 @@
       <option name="project" value="LOCAL" />
       <updated>1490436377948</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Implements forall method">
+      <created>1490518708992</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1490518708992</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1020,7 +891,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Starts implementing union and intersect" />
-    <option name="LAST_COMMIT_MESSAGE" value="Starts implementing union and intersect" />
+    <MESSAGE value="Implements forall method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implements forall method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1081,8 +953,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/funsets/FunSets.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="65" column="47" lean-forward="false" selection-start-line="65" selection-start-column="47" selection-end-line="65" selection-end-column="47" />
+        <state relative-caret-position="398">
+          <caret line="81" column="36" lean-forward="true" selection-start-line="81" selection-start-column="36" selection-end-line="81" selection-end-column="36" />
           <folding />
         </state>
       </provider>
