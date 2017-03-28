@@ -1,5 +1,7 @@
 package objsets
 
+import java.util.NoSuchElementException
+
 import TweetReader._
 
 /**
@@ -65,7 +67,7 @@ abstract class TweetSet {
    * Question: Should we implment this method here, or should it remain abstract
    * and be implemented in the subclasses?
    */
-    def mostRetweeted: Tweet = ???
+    def mostRetweeted: Tweet
   
   /**
    * Returns a list containing all tweets of this set, sorted by retweet count
@@ -124,6 +126,8 @@ class Empty extends TweetSet {
   def remove(tweet: Tweet): TweetSet = this
 
   def foreach(f: Tweet => Unit): Unit = ()
+
+  override def mostRetweeted: Tweet = throw new NoSuchElementException
 }
 
 class NonEmpty(elem: Tweet, left: TweetSet, right: TweetSet) extends TweetSet {
@@ -160,7 +164,22 @@ class NonEmpty(elem: Tweet, left: TweetSet, right: TweetSet) extends TweetSet {
     left.foreach(f)
     right.foreach(f)
   }
+
+  override def mostRetweeted: Tweet = {
+    def mostRetweetedAcc(set:  TweetSet, t: Tweet): Tweet =
+      try{
+        if (t.retweets < elem.retweets) mostRetweetedAcc(this.remove(elem), elem)
+        else mostRetweetedAcc(this.remove(elem), t)
+      }
+      catch {
+        case e: NoSuchMethodException => t
+        case e: NullPointerException => t
+      }
+
+    mostRetweetedAcc(this, this.elem)
+  }
 }
+
 
 trait TweetList {
   def head: Tweet
