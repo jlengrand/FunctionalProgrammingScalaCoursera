@@ -53,7 +53,7 @@ abstract class TweetSet {
   /**
    * Returns a new `TweetSet` that is the union of `TweetSet`s `this` and `that`.
    *
-   * Question: Should we implment this method here, or should it remain abstract
+   * Question: Should we implement this method here, or should it remain abstract
    * and be implemented in the subclasses?
    */
     def union(that: TweetSet): TweetSet
@@ -64,21 +64,39 @@ abstract class TweetSet {
    * Calling `mostRetweeted` on an empty set should throw an exception of
    * type `java.util.NoSuchElementException`.
    *
-   * Question: Should we implment this method here, or should it remain abstract
+   * Question: Should we implement this method here, or should it remain abstract
    * and be implemented in the subclasses?
    */
     def mostRetweeted: Tweet
-  
+    def mostRetweetedIter(famous: Tweet) : Tweet
+
   /**
    * Returns a list containing all tweets of this set, sorted by retweet count
    * in descending order. In other words, the head of the resulting list should
    * have the highest retweet count.
    *
    * Hint: the method `remove` on TweetSet will be very useful.
-   * Question: Should we implment this method here, or should it remain abstract
+   * Question: Should we implement this method here, or should it remain abstract
    * and be implemented in the subclasses?
    */
-    def descendingByRetweet: TweetList = ???
+
+    def descendingByRetweet: TweetList = {
+      def descendingByRetweetAcc(set: TweetSet, list: TweetList): TweetList =
+        try {
+          val tweet = set.mostRetweeted
+          descendingByRetweetAcc(set.remove(tweet), new TweetList {
+            override def tail: TweetList = list
+            override def isEmpty: Boolean = false
+            override def head: Tweet = tweet
+          })
+        }
+        catch {
+          case e: NoSuchMethodException => list
+          case e: NullPointerException => list
+        }
+
+      descendingByRetweetAcc(this, Nil)
+    }
   
   /**
    * The following methods are already implemented
@@ -128,9 +146,10 @@ class Empty extends TweetSet {
   def foreach(f: Tweet => Unit): Unit = ()
 
   override def mostRetweeted: Tweet = throw new NoSuchElementException
+  override def mostRetweetedIter(famous: Tweet): Tweet = famous
 }
 
-class NonEmpty(elem: Tweet, left: TweetSet, right: TweetSet) extends TweetSet {
+class NonEmpty(val elem: Tweet, left: TweetSet, right: TweetSet) extends TweetSet {
 
   def union(that: TweetSet): TweetSet = {
     left.union(right.union(that.incl(elem)))
@@ -165,19 +184,13 @@ class NonEmpty(elem: Tweet, left: TweetSet, right: TweetSet) extends TweetSet {
     right.foreach(f)
   }
 
-  override def mostRetweeted: Tweet = {
-    def mostRetweetedAcc(set:  TweetSet, t: Tweet): Tweet =
-      try{
-        if (t.retweets < elem.retweets) mostRetweetedAcc(this.remove(elem), elem)
-        else mostRetweetedAcc(this.remove(elem), t)
-      }
-      catch {
-        case e: NoSuchMethodException => t
-        case e: NullPointerException => t
-      }
+    override def mostRetweeted: Tweet = {
+      mostRetweetedIter(elem)
+    }
 
-    mostRetweetedAcc(this, this.elem)
-  }
+    override def mostRetweetedIter(famous:Tweet): Tweet = {
+      right.mostRetweetedIter(left.mostRetweetedIter(if(elem.retweets > famous.retweets) elem else famous))
+    }
 }
 
 
