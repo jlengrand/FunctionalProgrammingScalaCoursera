@@ -82,17 +82,16 @@ abstract class TweetSet {
     */
 
   def descendingByRetweet: TweetList = {
-    def descendingByRetweetAcc(set: TweetSet, list: TweetList): TweetList = {
-      try{
-        val tweet = set.mostRetweeted
-        descendingByRetweetAcc(set.remove(tweet), new Cons(tweet, list))
+    def descendingByRetweetAcc(list: TweetList): TweetList = {
+      try {
+        new Cons(this.mostRetweeted, this.remove(this.mostRetweeted).descendingByRetweet)
       }
       catch{
         case e: NoSuchElementException => list
       }
     }
 
-    descendingByRetweetAcc(this, Nil)
+    descendingByRetweetAcc(Nil)
   }
 
   /**
