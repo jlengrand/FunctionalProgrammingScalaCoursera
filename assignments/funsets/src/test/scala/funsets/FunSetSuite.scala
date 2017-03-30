@@ -77,6 +77,11 @@ class FunSetSuite extends FunSuite {
     val s1 = singletonSet(1)
     val s2 = singletonSet(2)
     val s3 = singletonSet(3)
+
+    def listSet(list: Array[Int]): Set =
+      x => list.exists(p => p == x)
+
+    val s4 = listSet(Array(1, 3, 4, 5, 7, 1000))
   }
 
   /**
@@ -107,6 +112,16 @@ class FunSetSuite extends FunSuite {
       assert(contains(s, 1), "Union 1")
       assert(contains(s, 2), "Union 2")
       assert(!contains(s, 3), "Union 3")
+    }
+  }
+
+  test("filter works as expected") {
+    new TestSets {
+      val resSet= filter(s4, x => x < 5)
+      assert(contains(resSet, 1))
+      assert(contains(resSet, 3))
+      assert(contains(resSet, 4))
+      assert(!contains(resSet, -100))
     }
   }
 
