@@ -110,7 +110,7 @@ object Huffman {
   /**
    * Checks whether the list `trees` contains only one single code tree.
    */
-    def singleton(trees: List[CodeTree]): Boolean = trees.tail isEmpty
+    def singleton(trees: List[CodeTree]): Boolean = trees.size == 1
 
   /**
    * The parameter `trees` of this function is a list of code trees ordered
@@ -210,8 +210,8 @@ object Huffman {
         else{
           subtree match{
             case Fork(left, right, _, _) => {
-              if (chars(left).contains(textLeft.head)) encodeIter(left, textLeft, 0 :: acc)
-              else encodeIter(right, textLeft, 1 :: acc)
+              if (chars(left).contains(textLeft.head)) encodeIter(left, textLeft, 1 :: acc)
+              else encodeIter(right, textLeft, 0 :: acc)
             }
             case Leaf(_, _) => encodeIter(tree, textLeft.tail, acc)
           }
