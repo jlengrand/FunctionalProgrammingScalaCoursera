@@ -21,7 +21,7 @@ object Huffman {
     abstract class CodeTree
   case class Fork(left: CodeTree, right: CodeTree, chars: List[Char], weight: Int) extends CodeTree
   case class Leaf(char: Char, weight: Int) extends CodeTree
-  
+
 
   // Part 1: Basics
     def weight(tree: CodeTree): Int =
@@ -29,17 +29,15 @@ object Huffman {
         case Fork(_, _, _, singleWeigth) => singleWeigth
         case Leaf(_, singleWeigth)=> singleWeigth
       }
-  
+
     def chars(tree: CodeTree): List[Char] =
       tree match {
         case Fork(_, _, treeChars, _) => treeChars
         case Leaf(char, _)=> List(char)
       }
-  
+
   def makeCodeTree(left: CodeTree, right: CodeTree) =
     Fork(left, right, chars(left) ::: chars(right), weight(left) + weight(right))
-
-
 
   // Part 2: Generating Huffman trees
 
@@ -77,8 +75,27 @@ object Huffman {
    *       println("integer is  : "+ theInt)
    *   }
    */
-    def times(chars: List[Char]): List[(Char, Int)] = ???
-  
+    def times(chars: List[Char]): List[(Char, Int)] = {
+      /*
+      We are using Maps in order to easily get access to items and reconstruct Maps as an output.
+       */
+      def addToMap(acc: Map[Char, Int], char: Char): Map[Char, Int] = {
+        val value = acc.get(char)
+        if(value == None) acc + (char -> 1)
+        else (acc - char) + (char ->  (value.get + 1))
+      }
+
+      def timesIter(chars: List[Char], acc: Map[Char, Int]): List[(Char, Int)] = {
+        if (chars.isEmpty) acc.iterator.toList
+        else {
+          timesIter(chars.tail, addToMap(acc, chars.head))
+        }
+      }
+
+      timesIter(chars, Map[Char, Int]())
+    }
+
+
   /**
    * Returns a list of `Leaf` nodes for a given frequency table `freqs`.
    *
